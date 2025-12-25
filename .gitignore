@@ -1,0 +1,10 @@
+.env
+.env.local
+.env.local.example
+.next
+.DS_Store
+node_modules
+.vscode
+# Firmware secrets
+farmalytica_firmware/include/secrets.h
+

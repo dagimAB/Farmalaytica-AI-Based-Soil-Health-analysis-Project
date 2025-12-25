@@ -1,0 +1,17 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "farmalytica_firmware"
+    }
+  ],
+  "settings": {
+    "workbench.startupEditor": "readme",
+    "files.exclude": {
+      "**/.next": true,
+      "**/node_modules": true
+    }
+  }
+}
