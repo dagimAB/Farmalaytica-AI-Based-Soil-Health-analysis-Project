@@ -80,9 +80,16 @@ npm run dev
 
 ---
 
+## Data Note
+
+- The `training_data.csv` dataset is **excluded** from this repository to keep the repository lightweight and to avoid pushing very large files. The raw dataset is large and suitable for offline model training; it is intentionally omitted from version control.
+- **Access**: The dataset can be provided upon request for legitimate research or collaboration purposes — contact the project owner to arrange secure transfer.
+
+---
+
 ## Future Roadmap
 
-1. **Migrating AI Inference to a FastAPI microservice** — Load the model once in a persistent service (lower latency, better scaling, health checks, containerization).
+1. **Migrating AI Inference to a FastAPI microservice (containerized with Docker)** — Load the model once in a persistent service to reduce latency, enable health checks, and make the inference layer easily deployable and scalable via containers.
 2. Add authentication & per-farm multi-user support (JWT, roles)
 3. CI for model checks and automated retraining pipelines
 4. Offline-capable firmware (local buffering and retries, OTA updates)
