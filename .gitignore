@@ -8,3 +8,7 @@ node_modules
 # Firmware secrets
 farmalytica_firmware/include/secrets.h
 
+# Large datasets (should not be committed)
+training_data.csv
+data/*.csv
+
