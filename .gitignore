@@ -1,14 +1,13 @@
 .env
-.env.local
 .env.local.example
-.next
+.next/
 .DS_Store
-node_modules
+node_modules/
+.pio/
 .vscode
-# Firmware secrets
-farmalytica_firmware/include/secrets.h
 
 # Large datasets (should not be committed)
 training_data.csv
 data/*.csv
+**/*.csv
 
